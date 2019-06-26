@@ -1,0 +1,28 @@
+.reveal section img.v33 {
+    border:0;
+    vertical-align: middle;
+    height: 4em;
+    width: 4em;
+    background: transparent;
+}
+
+.reveal section div.dark-banner {
+    background-color:rgb(0,0,0);opacity:0.9;
+    padding:2em;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    text-transform: none;
+}
+
+.reveal section div.logo {
+    float:left; 
+    min-width:100px;
+    height:100px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 2px;
+}
+.reveal section div.logo img {
+
+}

@@ -1,0 +1,22 @@
+{
+  "name": "polyglot-talk",
+  "version": "1.0.0",
+  "description": "A talk about polyglot programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agrothe/polyglot-talk.git"
+  },
+  "keywords": [
+    "polyglot"
+  ],
+  "author": "agrothe@gmail.com",
+  "license": "GNU LGPLv3",
+  "bugs": {
+    "url": "https://github.com/agrothe/polyglot-talk/issues"
+  },
+  "homepage": "https://github.com/agrothe/polyglot-talk#readme"
+}
