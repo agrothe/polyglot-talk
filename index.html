@@ -5,6 +5,8 @@
         <link rel="stylesheet" href="css/theme/league.css">
         <link rel="stylesheet" href="lib/css/monokai.css">
         <link rel="stylesheet" href="css/talk.css">
+        <!--link rel="stylesheet" href="css/print/pdf.css"-->
+
 	</head>
 	<body>
 		<div class="reveal">
@@ -12,27 +14,30 @@
                 <section data-background="img/soner-eker-jhtPCeQ2mMU-unsplash.jpg">
                     <div class="dark-banner">
                         <h2>Polyglot Programming</h2>
-                        <img class="v33" src="img/vision33-logo.png" />
                         <div>Andrew Grothe</div>
                     </div>
                 </section>
                 <section data-markdown data-separator-notes="^Note:">
                     <script type="text/template">
                         ### Polyglot Programming
+                        - Intro
+                        - Definition
+                        - Frameworks
+                        - Demos
 
-                        #### a.k.a. monologue on madness <!-- .element: class="fragment" data-fragment-index="1" -->
-                        
                         Note:
-                        new web project, no given tech stack, learn something new
+                        a.k.a. monologue on madness
                     </script>
                 </section>
                 <section>
-                    <div class="fragment">It all began with a simple learning project</div>
+                    <div class="">It all began with a simple learning project</div>
                     <div class="fragment">something simple...</div>
                     <div class="fragment">small, easy to finish...</div>
                     <div class="fragment">what language should I use?</div>
+                    <aside class="notes">this should be conversational style, new web project, no given tech stack, learn something new</aside>
                 </section>
                 <section>
+                    <h3>Picking a Language</h3>
                     <div class="fragment logo"><img src="img/logo/aspnet.jpg" height="100"/></div>
                     <div class="fragment logo"><img src="img/logo/java.jpg" height="100" /></div>
                     <div class="fragment logo"><img src="img/logo/kotlin.jpg" height="100" /></div>
@@ -152,7 +157,7 @@
                     </aside>
                 </section>
                 <section>
-                    <img src="https://media.giphy.com/media/10tIjpzIu8fe0/giphy.gif" />
+                    <img src="img/sadness.gif" />
                     <p>#sadness</p>
                     <aside class="notes">exercise in misery</aside>
                 </section>
@@ -169,6 +174,7 @@
                             <li>Provides great performance</li>
                         </ul>
                     </div>
+                    <aside class="notes">typescript fits the bill, but.... definitions files, etc</aside>
                 </section>
                 <section>
                     <p>Polyglot</p>
@@ -235,10 +241,18 @@
                     <h2>Why?</h2>
                     <div class="fragment">Consolidate learning</div>
                     <div class="fragment">Condense the stack</div>
-                    <div class="fragment">#happiness</div>
+                    <div class="fragment">Eliminate technical debt</div>
+                  <!-- <div class="fragment">#happiness</div>--> 
                     <aside class="notes">
-                         consolidate learning (smaller learning curve). make building fullstack easier.
+                         4 reasons. consolidate learning (smaller learning curve). make building fullstack easier. less to maintain
                     </aside>
+                </section>
+                <section>
+                    
+                <section>
+                        <img src="img/happiness.gif" height="75%" />
+                         <p>#happiness</p>
+                    </section>
                 </section>
                 <section>
                     <h2>Vert.x</h2>
@@ -317,7 +331,7 @@
                 </section>
                 <section data-background-iframe="https://www.techempower.com/benchmarks/#section=data-r17&hw=ph&test=json" data-background-interactive>
                     <aside class="notes">
-                        
+                        aspnet note - low level overloads on kestrel
                     </aside>
                 </section>	
 				
@@ -402,34 +416,50 @@
                     <aside class="notes">
                     </aside>
                 </section>
-                
                 <section>
-                    <h2>Recap <span class="fragment">- Objectives</span></h2>
-                    <div class="fragment">Consolidate learning</div>
-                    <div class="fragment">Condense the stack</div>
-                    <div class="fragment">#happiness</div>
+                    <h2>Real World Stack</h2>
+                    <p>You Need a Budget.com<br/>8 languages, 2 DB, 3 frameworks, <br/>3 devops, 5 services, 3+ IDEs</p>
+                    <p style="text-align: left;">
+                            <strong>Server:</strong> Ruby on Rails, PostgreSQL<br />
+                            <strong>iOS:</strong> Objective-C, Swift, TypeScript, SQLite<br />
+                            <strong>Android:</strong> Java, Kotlin, TypeScript, SQLite<br />
+                            <strong>Web:</strong> Ember, TypeScript, Grunt, webpack<br />
+                            <strong>Services:</strong> GitHub, Heroku, Amazon Web Services, DigitalOcean, Recurly<br />
+                            <strong>DevOps:</strong> Ansible, Vagrant, Jenkins<br />
+                    </p>
                     <aside class="notes">
-                         consolidate learning (smaller learning curve). make building fullstack easier.
-
+                        HTML, CSS not listed, but sources show it used
                     </aside>
                 </section>
                 <section>
-                    <h2>Sample Stack</h2>
+                    <h2>Sample Polyglot Stack</h2>
+                    <p>4 Languages, 1 IDE</p>
                     <div class="stack">Web Tier - HTML, CSS, Blazor (C#)</div>
-                    <div class="stack">Shared Assets (C#)</div>
+                    <div class="stack">Mobile - Xamarin.Forms (XAML, C#)</div>
                     <div class="stack">Application Tier (C#)</div>
+                    <div class="stack">Shared Assets (C#)</div>
                 </section>
                 <section>
-                    <h2>Demo</h2>
+                    <h2>Demos</h2>
                     <ul>
                         <li>Vert.x</li>
                         <li>GraalVM</li>
                         <li>Blazor</li>
                     </ul>
+                </section>               
+                <section>
+                    <h2>Recap - Why Polyglot</h2>
+                    <div class="fragment">Consolidate learning</div>
+                    <div class="fragment">Condense the stack</div>
+                    <div class="fragment">Eliminate technical debt</div>
+                    <div class="fragment">#happiness</div>
+                    <aside class="notes">
+                            consolidate learning (smaller learning curve). make building fullstack easier.
+                    </aside>
                 </section>
                 <section>
-                    <h2>Thank You</h2>
-                    <p>https://agrothe.github.io/polyglot-talk/</p>
+                    <img src="img/lip-32jBfUrGTRg-unsplash.jpg" height="500" />
+                    <p>Slides => https://agrothe.github.io/polyglot-talk/</p>
                 </section>
             </div>
 		</div>
